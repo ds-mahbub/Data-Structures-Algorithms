@@ -1,9 +1,9 @@
-def BubleSort(nums):
-	n = len(nums)
+def BubleSort(nums): # define a function which will take an array
+	n = len(nums) # length of the array
 	flag = 1
-	print("Before Sort: ", nums)
+	print("Before Sort: ", nums) # will print the given array
 
-	for i in range(len(nums)-1):
+	for i in range(len(nums)-1): 
 		print("Iteration:", i)
 		flag = 1
 
